@@ -1,0 +1,260 @@
+html {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.row {
+    position: relative;
+    top: 4rem;
+}
+
+
+/* LANDING PAGE */
+.landing-page {
+    height: 100vh;
+    background-image: url(./img-bg/bgOHT.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.landing-page h3 {
+    font-weight: 700;
+    text-shadow: 1px 2px 2px black;
+}
+
+.landing-page a {
+    text-decoration: none;
+    text-shadow: 1px 1px 2px black;
+}
+
+.readmore {
+    background-color: orange;
+    width: fit-content;
+    padding: 1px 15px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    text-align: center;
+}
+
+/* LANDING PAGE END*/
+
+/* CONTENT 1 */
+.content1 {
+    height: 100vh;
+    background-image: url(./img-bg/img-bg-content1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content1 h3 {
+    font-weight: 700;
+}
+
+.content1 .pTujuan {
+    font-weight: 400;
+}
+
+.content1 .card-img-overlay {
+    color: black;
+    text-align: center;
+    margin-top: -1rem;
+}
+
+
+
+
+/* CONTENT 1 END*/
+
+/* CONTENT 2 */
+.content2 {
+    height: 100vh;
+    background-image: url(./img-bg/IMG_1204.JPG);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content2 h3 {
+    font-weight: 700;
+    text-shadow: 1px 1px 2px black;
+}
+
+.content2 a {
+    text-decoration: none;
+}
+
+.content2 img {
+    width: 95%;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.content2 h4 {
+    font-weight: 500;
+    text-shadow: 1px 1px 2px black;
+    
+}
+
+/* CONTENT 2 END*/
+
+
+
+/* FOOTER */
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer .logoSAC {
+    width: 35%;
+}
+
+.footer .logoJYL {
+    width: 25%;
+} 
+/* FOOTER END */
+
+
+/* Media Queries */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* Landing Page */
+    .landing-page h3 {
+        margin-top: 5.5rem;
+        margin-left: 2rem;
+    }
+
+    .landing-page .readmore {
+        margin-left: 2rem;
+    }
+    /* Landing Page End */
+
+    /* Content 1 */
+    .content1 h3 {
+        text-align: center;
+        font-size: 1.3rem;
+        margin-top: 1rem;
+    }
+
+    .content1 .pTujuan {
+        text-align: center;
+    }
+
+    .content1 .card {
+        margin: .5rem auto;
+        width: 55%;
+    }
+
+    .content1 .card-title {
+        font-size: 1rem;
+        text-shadow: 1px 1px 3px black;
+    }
+
+    .content1 .card-text {
+        display: none;
+    }
+
+    .content2 h3 {
+        text-align: center;
+        margin: 1.5rem;
+    }
+
+    .content2 .readmore {
+        margin: auto;
+    }
+
+    .content2 .company-profile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5rem;
+    }
+
+    .content2 h4 {
+        font-size: 1.2rem;
+        text-align: center;
+        margin-top: 1.2rem;
+    }
+    /* Content 1 End */
+    
+    /* Footer */
+    .footer {
+        margin-top: -3rem;
+    }
+
+    .footer .text1, .footer .text2 {
+        display: none;
+    }
+
+    .text3 {
+        text-align: center;
+    }
+
+    .text3 a {
+        margin: 1rem 1rem;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+    }
+
+    .footer .info-company {
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+
+    .footer .copyright {
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .company-group img {
+        width: 50%;
+    }
+    /* Footer End */
+
+
+
+
+
+
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
