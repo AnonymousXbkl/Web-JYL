@@ -265,7 +265,8 @@ html {
     }
 
     .content2 .company-profile {
-        margin-top: .5rem;
+        margin-top: -1.5rem;
+        margin-left: ;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -276,7 +277,7 @@ html {
     }
 
     .content2 .company-profile img {
-        width: 50%;
+        width: 30%;
         margin-top: 2rem;
     }
 
