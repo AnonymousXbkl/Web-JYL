@@ -219,8 +219,10 @@ html {
         font-weight: 600;
     }
 
-    .company-group img {
-        width: 50%;
+
+    .company-group {
+        text-align: center;
+        margin-top: -1rem;
     }
     /* Footer End */
 
