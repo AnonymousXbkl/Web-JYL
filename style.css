@@ -16,7 +16,7 @@ html {
     background-image: url(./img-bg/bgOHT.jpg);
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 
 .landing-page h3 {
@@ -58,6 +58,15 @@ html {
 
 .content1 .pTujuan {
     font-weight: 400;
+}
+
+.content1 .card-title {
+    font-size: 1rem;
+    text-shadow: 1px 1px 2px black;
+}
+
+.content1 .card-text {
+    text-shadow: 1px 1px 4px white;
 }
 
 .content1 .card-img-overlay {
@@ -193,7 +202,7 @@ html {
         margin-top: -3rem;
     }
 
-    .footer .text1, .footer .text2 {
+    .alamat {
         display: none;
     }
 
@@ -295,7 +304,7 @@ html {
         margin-top: -3rem;
     }
 
-    .footer .text1, .footer .text2 {
+    .alamat {
         display: none;
     }
 
@@ -329,7 +338,6 @@ html {
         margin-top: -1rem;
     }
     /* Footer End*/
-
 }
 
 
@@ -337,7 +345,51 @@ html {
 @media only screen and (min-width: 768px) {...}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...}
+@media only screen and (min-width: 992px) {
+    html {
+        font-size: 100%;
+    }
+    
+    /* Landing-page */
+    .landing-page h3 {
+        width: 70%;
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+        /* Landing-page End*/
+
+    /* Content 1 */
+    .content1 .pTujuan {
+        width: 50%;
+        padding-bottom: 2rem;
+    }
+
+    .content1 .card-text {
+        display: unset;
+        
+    }
+    /* Content 1 End*/
+
+    /* Content 2 */
+    .content2 h3 {
+        margin-top: 3rem;
+    }
+
+    .content2 .company-profile {
+        margin-top: 3rem;
+    }
+
+    .content2 .company-profile img {
+        width: 45%;
+    }
+    /* Content 2 End*/
+
+    /* Footer */
+    .footer .alamat {
+        display: unset;
+    }
+    /* Footer End */
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {...}
