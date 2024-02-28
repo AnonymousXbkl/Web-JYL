@@ -9,6 +9,12 @@ html {
     top: 4rem;
 }
 
+/* Navbar */
+.navbar .navbar-extra a{
+    color: gray;
+}
+/* Navbar End */
+
 
 /* LANDING PAGE */
 .landing-page {
@@ -354,7 +360,12 @@ html {
     .landing-page h3 {
         width: 70%;
         font-size: 3rem;
-        margin-bottom: 2rem;
+        margin-top: 6rem;
+        margin-bottom: 3rem;
+    }
+
+    .landing-page a {
+        font-size: 1.3rem;
     }
         /* Landing-page End*/
 
@@ -392,7 +403,9 @@ html {
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
+@media only screen and (min-width: 1200px) {
+
+}
 
 
 
