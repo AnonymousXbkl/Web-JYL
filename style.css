@@ -151,7 +151,9 @@ html {
 
     .content1 .card {
         margin: .5rem auto;
-        width: 55%;
+        width: 50%;
+        padding: ;
+        
     }
 
     .content1 .card-title {
@@ -225,15 +227,111 @@ html {
         margin-top: -1rem;
     }
     /* Footer End */
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /* Landing Page */
+    html {
+        font-size: 80%;
+    }
+
+    .landing-page h3 {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    /* Content 1 */
+    .content1 h3 {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .content1 .card {
+        display: flex;
+        width: 90%;
+        margin: 1rem auto;
+    }
+
+    .content1 .card-text {
+        display: none;
+    }
+    /* Content 1 End */
+
+    /* Content 2 */
+    .content2 h3 {
+        margin-top: 2rem;
+    }
+
+    .content2 .company-profile {
+        margin-top: .5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content2 .company-profile a {
+        margin: auto;
+    }
+
+    .content2 .company-profile img {
+        width: 50%;
+        margin-top: 2rem;
+    }
+
+
+    .content2 h4 {
+        text-align: center;
+        margin-top: 1rem;
+    }
 
 
 
+    /* Content 2 End */
+
+    /* Footer */
+    .footer {
+        margin-top: -3rem;
+    }
+
+    .footer .text1, .footer .text2 {
+        display: none;
+    }
+
+    .text3 {
+        text-align: center;
+    }
+
+    .text3 a {
+        margin: 1rem 1rem;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+    }
+
+    .footer .info-company {
+        text-align: center;
+        margin-top: 1rem;
+    }
 
 
+    .footer .copyright {
+        text-align: center;
+        font-weight: 600;
+    }
+
+
+    .company-group {
+        text-align: center;
+        margin-top: -1rem;
+    }
+    /* Footer End*/
 
 }
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {...}
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {...}
