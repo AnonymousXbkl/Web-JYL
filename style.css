@@ -1,7 +1,8 @@
-html {
+* {
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
     scroll-behavior: smooth;
+
 }
 
 .row {
@@ -163,6 +164,8 @@ html {
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
+    box-shadow: 1px 1px 8px black;
+    border: none;
 }
 
 .content1 .card:hover {
@@ -544,7 +547,7 @@ html {
         width: 70%;
         font-size: 3rem;
         margin-top: 6rem;
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
     }
 
     .landing-page a {
