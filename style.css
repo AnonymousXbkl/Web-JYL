@@ -13,6 +13,10 @@ html {
 .navbar .navbar-extra a{
     color: gray;
 }
+
+.navbar .virtual-tour {
+    font-size: 0.8rem;
+}
 /* Navbar End */
 
 
@@ -104,19 +108,47 @@ html {
     text-decoration: none;
 }
 
-.content2 img {
-    width: 95%;
-    border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    -ms-border-radius: 6px;
-    -o-border-radius: 6px;
+.content2 .card {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin: auto;
+    margin-top: 3rem;
+    padding: 0 0 0 0;
 }
+
+.content2 img {
+    box-shadow: 1px 1px 5px black;
+}
+
+
+
+.content2 .card-img-overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    border: none;
+}
+
+.content2 .card-img-overlay:hover {
+    opacity: 1;
+    border: none;
+}
+    
+    
 
 .content2 h4 {
     font-weight: 500;
     text-shadow: 1px 1px 2px black;
-    
 }
 
 /* CONTENT 2 END*/
@@ -129,6 +161,18 @@ html {
     color: black;
 }
 
+.footer .text3 a {
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.footer .text3 a:hover {
+    color: orange;
+}
+
 .footer .logoSAC {
     width: 35%;
 }
@@ -136,6 +180,13 @@ html {
 .footer .logoJYL {
     width: 25%;
 } 
+
+
+
+
+
+
+
 /* FOOTER END */
 
 
@@ -145,11 +196,11 @@ html {
     /* Landing Page */
     .landing-page h3 {
         margin-top: 5.5rem;
-        margin-left: 2rem;
+        text-align: center;
     }
 
     .landing-page .readmore {
-        margin-left: 2rem;
+        margin: 1rem auto;
     }
     /* Landing Page End */
 
@@ -279,20 +330,9 @@ html {
         margin-top: 2rem;
     }
 
-    .content2 .company-profile {
-        margin-top: -1.5rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .content2 .company-profile a {
-        margin: auto;
-    }
-
     .content2 .company-profile img {
         width: 30%;
-        margin-top: 2rem;
+        margin-top: rem;
     }
 
 
@@ -399,6 +439,7 @@ html {
     .footer .alamat {
         display: unset;
     }
+
     /* Footer End */
 }
 
