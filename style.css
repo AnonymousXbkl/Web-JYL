@@ -176,12 +176,9 @@ html {
 
 .content1 .card-title {
     font-size: 1rem;
-    text-shadow: 1px 1px 2px black;
+    /* text-shadow: 1px 1px 5px black; */
 }
 
-.content1 .card-text {
-    text-shadow: 1px 1px 4px white;
-}
 
 .content1 .card-img-overlay {
     color: black;
