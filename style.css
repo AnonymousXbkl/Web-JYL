@@ -256,8 +256,6 @@
     opacity: 1;
     border: none;
 }
-    
-    
 
 .content2 h4 {
     font-weight: 500;
@@ -295,7 +293,7 @@
     justify-content: center;
     align-items: center;
     width: 80%;
-    height: 370px;
+    height: 380px;
     margin: auto;
     box-shadow: 1px 1px 5px;
     transition: all 0.3s ease-in-out;
@@ -578,8 +576,12 @@
     }
 
     /* Content 1 */
+    .content1 {
+        height: 120vh;
+    }
+
     .content1 h3 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         margin-top: 2rem;
     }
 
@@ -596,11 +598,16 @@
 
     /* Content 2 */
     .content2 {
-        height: 120vh;
+        height: 140vh;
     }
 
     .content2 h3 {
         margin-top: 2rem;
+    }
+
+    .content2 .readmore {
+        font-size: 1rem;
+        padding-bottom: 2px;
     }
 
     .content2 .company-profile img {
@@ -616,6 +623,10 @@
     /* Content 2 End */
 
     /* Content 3 */
+    .content3 {
+        height: 120vh;
+    }
+
     .content3 .text-content3 {
         width: 90%;
         margin-bottom: 2rem;
@@ -623,15 +634,12 @@
 
     .content3 .card {
         width: 90%;
-        height: 130px;
+        height: 150px;
     }
 
     .content3 .card-title, .content3 .card-text {
         display: none;
     }
-
-
-
 
     /* Content 3 End */
 
@@ -700,6 +708,10 @@
         /* Landing-page End*/
 
     /* Content 1 */
+    .content1 {
+        height: 100vh;
+    }
+
     .content1 .pTujuan {
         width: 50%;
         padding-bottom: 2rem;
@@ -712,6 +724,10 @@
     /* Content 1 End*/
 
     /* Content 2 */
+    .content2 {
+        height: 100vh;
+    }
+
     .content2 h3 {
         margin-top: 3rem;
     }
@@ -724,6 +740,31 @@
         width: 45%;
     }
     /* Content 2 End*/
+
+    /* Content 3 */
+    .content3 {
+        height: 100vh;
+    }
+
+    .content3 .text-content3 {
+        margin: 2rem auto;
+        margin-bottom: 4rem;
+        width: 60%;
+    }
+
+    .content3 .card {
+        width: 80%;
+        height: 370px;
+    }
+
+    .content3 .card-title, .content3 .card-text {
+        display: grid;
+    }
+
+
+
+
+    /* Content 3 End */
 
     /* Footer */
     .footer .alamat {
