@@ -266,12 +266,68 @@
 
 /* CONTENT 2 END*/
 
+/* CONTENT 3 */
+.content3 {
+    height: 100vh;
+    background-image: url(./img-bg/img-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content3 h3 {
+    text-align: center;
+    font-weight: 700;
+    margin: 2rem 0;
+}
+
+.content3 .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content3 .card-body {
+    text-align: center;
+}
+
+.content3 button {
+    font-weight: 600;
+    padding: 2px 15px;
+    background-color: rgb(6,138,118);
+    border: 1px solid rgb(6,138,118);
+    box-shadow: 1px 1px 3px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.content3 button:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+
+
+
+/* CONTENT 3 END*/
+
 
 
 /* FOOTER */
 .footer a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .footer .text3 a {
@@ -287,7 +343,7 @@
 }
 
 .footer .text3 a:hover {
-    color: white;
+    color: black;
     transform: scale(1.2);
     -webkit-transform: scale(1.2);
     -moz-transform: scale(1.2);
