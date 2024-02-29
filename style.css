@@ -85,8 +85,7 @@ html {
 
 .navbar .input-search {
     height: 2.5rem;
-    width: 32rem;
-    border: none;
+    width: 32rem;    
 }
 /* Navbar End */
 
@@ -102,28 +101,33 @@ html {
 
 .landing-page h3 {
     font-weight: 700;
-    text-shadow: 1px 2px 2px black;
+    text-shadow: 1px 1px 4px black;
 }
 
 .landing-page a {
     text-decoration: none;
     text-shadow: 1px 1px 2px black;
+    width: fit-content;
 }
-
-
-
-
 
 .readmore {
     background-color: orange;
+    font-size: 1.5rem;
+    font-weight: 600;
     width: fit-content;
-    padding: 1px 15px;
+    padding: 1px 15px 6px;
     border-radius: 6px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     -ms-border-radius: 6px;
     -o-border-radius: 6px;
+    border: none;
     text-align: center;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
 }
 
 .readmore:hover {
@@ -132,7 +136,6 @@ html {
     -moz-transform: scale(1.2);
     -ms-transform: scale(1.2);
     -o-transform: scale(1.2);
-
 }
 
 /* LANDING PAGE END*/
@@ -328,8 +331,15 @@ html {
         text-align: center;
     }
 
-    .landing-page .readmore {
-        margin: 1rem auto;
+    .readmore {
+        font-size: 1rem;
+        padding-bottom: 4px;
+    }
+
+    .landing-page button {
+        display: flex;
+        align-items: center;
+        margin: auto;
     }
     /* Landing Page End */
 
@@ -367,6 +377,12 @@ html {
     }
 
     .content2 .readmore {
+        margin: auto;
+    }
+
+    .content2 button {
+        display: flex;
+        align-items: center;
         margin: auto;
     }
 
