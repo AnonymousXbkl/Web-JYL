@@ -82,11 +82,13 @@
     -moz-transform: scaleY(1);
     -ms-transform: scaleY(1);
     -o-transform: scaleY(1);
+    border: none;
 }
 
 .navbar .input-search {
     height: 2.5rem;
-    width: 32rem;    
+    width: 32rem;
+    border: none;    
 }
 /* Navbar End */
 
@@ -94,7 +96,7 @@
 /* LANDING PAGE */
 .landing-page {
     height: 100vh;
-    background-image: url(./img-bg/bgOHT.jpg);
+    background-image: url(img/img-bg/bg-landingPage.jpg);
     background-position: center;
     background-size: cover;
     /* background-attachment: fixed; */
@@ -116,7 +118,7 @@
     font-size: 1.5rem;
     font-weight: 600;
     width: fit-content;
-    padding: 1px 15px 6px;
+    padding: 1px 12px 1px 15px;
     border-radius: 6px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
@@ -144,7 +146,7 @@
 /* CONTENT 1 */
 .content1 {
     height: 100vh;
-    background-image: url(./img-bg/img-bg-content1.jpg);
+    background-image: url(img/img-bg/bg-content1.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -193,7 +195,7 @@
 /* CONTENT 2 */
 .content2 {
     height: 100vh;
-    background-image: url(./img-bg/IMG_1204.JPG);
+    background-image: url(img/img-bg/bg-content2.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -208,28 +210,27 @@
     text-decoration: none;
 }
 
+.content2 .card-img1 {
+    width: 100%;
+    box-shadow: none;
+}
+
 .content2 .card {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border: none;
-    margin: auto;
-    margin-top: 3rem;
-    padding: 0 0 0 0;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
+    text-align: center;
 }
 
 .content2 .card:hover {
-    transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
 }
 
 .content2 img {
@@ -242,15 +243,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, .4);
     opacity: 0;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
-    border: none;
 }
+
+
 
 .content2 .card-img-overlay:hover {
     opacity: 1;
@@ -267,7 +269,7 @@
 /* CONTENT 3 */
 .content3 {
     height: 100vh;
-    background-image: url(./img-bg/img-bg.jpg);
+    background-image: url(img/img-bg/bg-content3.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -375,7 +377,12 @@
     -o-transition: 0.4s;
     background-color: rgb(6, 138, 118);
     padding: 5px;
-    width: fit-content;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin: 0 1rem;
 }
 
 .footer .text3 a:hover {
@@ -395,200 +402,62 @@
     width: 25%;
 } 
 
-
-
-
-
-
-
 /* FOOTER END */
 
 
-/* Media Queries */
+
+
+
+/* Media Queries CSS Breakpoints */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     /* Navbar */
-    .navbar .navbar-collapse {
+    .navbar {
         text-align: center;
     }
+    /* Navbar End */
 
 
     /* Landing Page */
     .landing-page h3 {
-        margin-top: 5.5rem;
         text-align: center;
+        width: 80%;
+        margin: auto;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
     }
 
-    .readmore {
-        font-size: 1rem;
-        padding-bottom: 4px;
-    }
-
-    .landing-page button {
+    .landing-page .readmore {
+        font-size: 0.8rem;
+        padding-bottom: 0;
         display: flex;
         align-items: center;
         margin: auto;
+    }
+
+    .landing-page a {
+        font-size: 0.1rem;
     }
     /* Landing Page End */
 
     /* Content 1 */
+    .content1 {
+        height: 140vh;
+    }
     .content1 h3 {
         text-align: center;
-        font-size: 1.3rem;
-        margin-top: 1rem;
     }
 
     .content1 .pTujuan {
         text-align: center;
-    }
-
-    .content1 .card {
-        margin: .5rem auto;
-        width: 50%;
-        
-    }
-
-    .content1 .card-title {
-        font-size: 1rem;
-        text-shadow: 1px 1px 3px black;
-    }
-
-    .content1 .card-text {
-        display: none;
-    }
-    /* Content 1 End */
-
-    /* Content 2 */
-
-    .content2 h3 {
-        text-align: center;
-        margin: 1.5rem;
-    }
-
-    .content2 .readmore {
+        width: 80%;
         margin: auto;
     }
 
-    .content2 button {
-        display: flex;
-        align-items: center;
-        margin: auto;
-    }
-
-    .content2 .card {
-        transition: all 0.3s ease-in-out;
-        -webkit-transition: all 0.3s ease-in-out;
-        -moz-transition: all 0.3s ease-in-out;
-        -ms-transition: all 0.3s ease-in-out;
-        -o-transition: all 0.3s ease-in-out;
-    }
-
-
-
-    .content2 h4 {
-        font-size: 1.2rem;
-        text-align: center;
-        margin-top: 1.2rem;
-    }
-/* Content 2 End */
-
-/* Content 3 */
-.content3 {
-    height: 120vh;
-    margin: auto;
-}
-
-.content3 .text-content3 {
-    margin-top: 2rem;
-    width: 90%;
-    margin-bottom: 3rem;
-}
-
-.content3 .card {
-    height: 160px;
-}
-
-.content3 .card {
-    margin: auto;
-    margin-bottom: 1rem;
-    width: 50%;
-}
-
-.content3 .card-title, .content3 .card-text {
-    display: none;
-}
-
-/* Content 3 End */
-    
-    /* Footer */
-    .footer {
-        margin-top: -3rem;
-    }
-
-    .alamat {
-        display: none;
-    }
-
-    .text3 {
-        text-align: center;
-    }
-
-    .text3 a {
-        margin: 1rem 1rem;
-        border-radius: 4px;
-        -webkit-border-radius: 4px;
-        -moz-border-radius: 4px;
-        -ms-border-radius: 4px;
-        -o-border-radius: 4px;
-    }
-
-
-    .footer .info-company {
-        text-align: center;
-        margin-top: 1rem;
-    }
-
-
-    .footer .copyright {
-        text-align: center;
-        font-weight: 600;
-    }
-
-
-    .company-group {
-        text-align: center;
-        margin-top: -1rem;
-    }
-    /* Footer End */
-}
-
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    /* Landing Page */
-    html {
-        font-size: 80%;
-    }
-
-    .landing-page h3 {
-        font-size: 1.5rem;
-        margin-top: 2rem;
-    }
-
-    /* Content 1 */
-    .content1 {
-        height: 120vh;
-    }
-
-    .content1 h3 {
-        font-size: 1.3rem;
-        margin-top: 2rem;
-    }
-
     .content1 .card {
-        display: flex;
-        width: 90%;
-        margin: 1rem auto;
+        margin: auto;
+        margin-top: 2rem;
+        width: 70%;
     }
 
     .content1 .card-text {
@@ -598,66 +467,71 @@
 
     /* Content 2 */
     .content2 {
-        height: 140vh;
+        height: 185vh;
     }
-
     .content2 h3 {
-        margin-top: 2rem;
+        margin: 2rem 0 1rem 0;
     }
 
     .content2 .readmore {
-        font-size: 1rem;
-        padding-bottom: 2px;
+        font-size: 0.8rem;
+        padding-bottom: 0;
     }
 
-    .content2 .company-profile img {
-        width: 30%;
-        margin-top: rem;
+    .content2 .card-img1 {
+        width: 70%;
     }
 
+    .content2 .card {
+        width: 80%;
+        margin: auto;
+        margin-top: 2rem;
+        height: 21rem;
+    }
 
-    .content2 h4 {
-        text-align: center;
-        margin-top: 1rem;
+    .content2 .card img {
+        margin-top: -3rem;
+        width: 94%;
+    }
+
+    .content2 .card p {
+        display: none;
     }
     /* Content 2 End */
 
     /* Content 3 */
     .content3 {
-        height: 120vh;
+        height: 180vh;
     }
 
     .content3 .text-content3 {
-        width: 90%;
-        margin-bottom: 2rem;
+        width: 80%;
+        margin-bottom: -1rem;
+    }
+
+    .content3 h3 {
+        margin: 2rem 0 1rem 0;
     }
 
     .content3 .card {
-        width: 90%;
-        height: 150px;
+        width: 80%;
+        margin-top: 1rem;
+        height: 20rem;
     }
 
-    .content3 .card-title, .content3 .card-text {
+    .content3 .card p {
         display: none;
     }
-
-    /* Content 3 End */
+    /* Content 3 */
 
     /* Footer */
-    .footer {
-        margin-top: -3rem;
-    }
-
-    .alamat {
-        display: none;
-    }
-
-    .text3 {
+    .footer .alamat {
         text-align: center;
     }
 
-    .text3 a {
-        margin: 1rem 1rem;
+    .footer .text3 {
+        text-align: center;
+        margin: 1rem 0 1rem 0;
         border-radius: 4px;
         -webkit-border-radius: 4px;
         -moz-border-radius: 4px;
@@ -670,113 +544,17 @@
         margin-top: 1rem;
     }
 
-
     .footer .copyright {
         text-align: center;
         font-weight: 600;
     }
 
-
-    .company-group {
+    .footer .company-group {
         text-align: center;
-        margin-top: -1rem;
     }
-    /* Footer End*/
+
 }
-
-
-/* Medium devices (landscape tablets, 768px and up) */
-/* @media only screen and (min-width: 768px) {...} */
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    html {
-        font-size: 100%;
-    }
-    
-    /* Landing-page */
-    .landing-page h3 {
-        width: 70%;
-        font-size: 3rem;
-        margin-top: 6rem;
-        margin-bottom: 1rem;
-    }
-
-    .landing-page a {
-        font-size: 1.3rem;
-    }
-        /* Landing-page End*/
-
-    /* Content 1 */
-    .content1 {
-        height: 100vh;
-    }
-
-    .content1 .pTujuan {
-        width: 50%;
-        padding-bottom: 2rem;
-    }
-
-    .content1 .card-text {
-        display: unset;
-        
-    }
-    /* Content 1 End*/
-
-    /* Content 2 */
-    .content2 {
-        height: 100vh;
-    }
-
-    .content2 h3 {
-        margin-top: 3rem;
-    }
-
-    .content2 .company-profile {
-        margin-top: 3rem;
-    }
-
-    .content2 .company-profile img {
-        width: 45%;
-    }
-    /* Content 2 End*/
-
-    /* Content 3 */
-    .content3 {
-        height: 100vh;
-    }
-
-    .content3 .text-content3 {
-        margin: 2rem auto;
-        margin-bottom: 4rem;
-        width: 60%;
-    }
-
-    .content3 .card {
-        width: 80%;
-        height: 370px;
-    }
-
-    .content3 .card-title, .content3 .card-text {
-        display: grid;
-    }
-
-
-
-
-    /* Content 3 End */
-
-    /* Footer */
-    .footer .alamat {
-        display: unset;
-    }
-
     /* Footer End */
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-/* @media only screen and (min-width: 1200px) {...} */
-
 
 
 
