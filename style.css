@@ -414,6 +414,11 @@
     .navbar {
         text-align: center;
     }
+
+    .navbar .navbar-extra {
+    display: none;
+    }
+
     /* Navbar End */
 
 
@@ -557,22 +562,349 @@
     .footer .company-group {
         text-align: center;
     }
-
 }
     /* Footer End */
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /* Navbar */
+    .navbar {
+        text-align: center;
+    }
 
 
+    /* Navbar End */
+
+    /* Landing Page */
+    .landing-page h3 {
+        font-size: 1.2rem;
+        width: 70%;
+        margin: 2rem 0 1rem 0;
+    }
+
+    .landing-page .readmore {
+        font-size: 0.8rem;
+    }
+    /* Landing Page End */
+
+    /* Content 1 */
+    .content1 {
+        height: 220vh;
+    }
+
+    .content1 h3 {
+        margin: 2rem 0 1rem 0;
+        text-align: center;
+    }
+
+    .content1 .pTujuan {
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+
+    .content1 .card {
+    display: flex;
+        margin: auto;
+        margin-top: 2rem;
+        width: 40%;
+    }
+
+    .content1 .card-text {
+        display: none;
+    }
+    /* Content 1 End */
+
+    /* Content 2 */
+    .content2 {
+        height: 420vh;
+    }
+
+    .content2 h3 {
+        margin-top: 2rem;
+        font-size: 1.3rem;
+    }
+
+    .content2 .readmore {
+        font-size: 0.8rem;
+    }
+
+    .content2 .card-img1 {
+        width: 50%;
+        display: flex;
+        margin: auto;
+    }
+
+    .content2 .card {
+        width: 70%;
+        margin: auto;
+        margin-top: 2rem;
+        height: 30rem;
+    }
+
+    .content2 .card img {
+        margin-top: -3rem;
+        width: 93%;
+    }
+    /* Content 2 End */
+
+    /* Content 3 */
+    .content3 {
+        height: 380vh;
+    }
+    .content3 h3 {
+        margin-top: 2rem;
+    }
+
+    .content3 .text-content3 {
+        width: 90%;
+        margin-bottom: -1rem;
+    }
+
+    .content3 .card {
+        width: 50%;
+        margin-top: 1rem;
+        height: max-content;
+    }
+
+    .content3 .card .card-title {
+        margin-bottom: 2rem;
+    }
+
+    .content3 .card .card-text {
+        margin-bottom: 3rem;
+    }
+    /* Content 3 End */
+
+    /* Footer */
+    .footer .alamat {
+        text-align: center;
+    }
+
+    .footer .text3 {
+        text-align: center;
+        margin: 1rem 0 1rem 0;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+    }
+
+    .footer .info-company {
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .footer .copyright {
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .footer .company-group {
+        text-align: center;
+    }
+}
+    /* Footer End */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    /* Navbar */
+
+    /* Navbar End */
+
+    /* Landing Page */
+    .landing-page h3 {
+        margin: 8rem 0 2rem 2rem;
+        font-size: 2rem;
+    }
+
+    .landing-page .readmore {
+        font-size: 1rem;
+        margin: 0 0 0 2rem;
+    }
+    /* Landing Page End */
+
+    /* Content 1 */
+    .content1 {
+        height: 100vh;
+    }
+
+    .content1 .card {
+        width: 100%;
+        display: grid;
+    }
+    /* Content 1 End */
+
+    /* Content 2 */
+    .content2 {
+        height: 100vh;
+    }
+
+    .content2 h3 {
+        margin: 3rem 0 2rem 2rem;
+        font-size: 2rem;
+    }
+
+    .content2 .readmore {
+        margin: 0 0 10rem 2rem;
+        font-size: 1rem;
+    }
+
+    .content2 .card-img1 {
+        width: 100%;
+    }
+
+    .content2 .card {
+        width: 90%;
+        height: max-content;
+        height: 30rem;
+    }
+
+    .content2 .card img {
+        width: 10rem;
+        position: relative;
+    }
+
+    .content2 .card-body {
+        margin: -4rem 0 0 0;
+    }
+
+    .content2 .card p {
+        text-align: justify;
+    }
+    /* Content 2 End */
+
+    /* Content 3 */
+    .content3 {
+        height: 100vh;
+    }
+
+    .content3 h3 {
+        margin: 3rem 0 2rem 0;
+    }
+
+    .content3 .text-content3 p {
+        margin: 0 0 3rem 0;
+    }
+
+    .content3 .card {
+        width: 100%;
+    }
+
+    .content3 .btn-content3 {
+        margin-top: 3rem;
+    }
+    /* Content 3 End */
+
+    /* Footer */
+    
+    /* Footer End */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    /* Navbar */
+
+    /* Navbar End */
+
+    /* Landing Page */
+
+    /* Landing Page End */
+
+    /* Content 1 */
+    .content1 .card-text {
+        display: grid;
+    }
+    /* Content 1 End */
+
+    /* Content 2 */
 
 
+    .content2 h3 {
+        margin: 2rem 0 1rem 2rem;
+        font-size: 1.5rem;
+    }
+    .content2 .readmore {
+        margin: 0 0 1rem 2rem;
+        font-size: 0.8rem;
+    }
 
+    .content2 .card-img1 {
+        width: 100%;
+        margin-top: -6rem;
+    }
 
+    .content2 .card {
+        height: 20rem;
+    }
+    /* Content 2 End */
 
+    /* Content 3 */
+    .content3 {
+        height: 120vh;
+    }
 
+    .content3 h3 {
+        margin: 1rem 0 2rem 0;
+    }
 
+    .content3 .text-content3 p {
+        margin: 0 0 1rem 0;
+    }
 
+    .content3 .card {
+        width: 95%;
+    }
 
+    .content3 .card .card-text {
+        margin-bottom: 0;
+    }
+    /* Content 3 End */
 
+    /* Footer */
+    
+    /* Footer End */
+}
 
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* Navbar */
 
+    /* Navbar End */
 
+    /* Landing Page */
+
+    /* Landing Page End */
+
+    /* Content 1 */
+    .content1 h3 {
+        text-align: start;
+    }
+
+    .content1 .pTujuan {
+        text-align: start;
+        margin: 0 0 0 0;
+    }
+    /* Content 1 End */
+
+    /* Content 2 */
+    .content2 .card {
+        height: 15rem;
+    }
+    /* Content 2 End */
+
+    /* Content 3 */
+    .content3 .card .card-title {
+        margin-bottom: 1rem;
+    }
+
+    .content3 .card .card-text {
+        font-size: 0.9rem;
+    }
+    /* Content 3 End */
+
+    /* Footer */
+    
+    /* Footer End */
+}
