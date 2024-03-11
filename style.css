@@ -886,6 +886,10 @@
         text-align: start;
         margin: 0 0 0 0;
     }
+
+    .content1 .card {
+        width: 85%;
+    }
     /* Content 1 End */
 
     /* Content 2 */
