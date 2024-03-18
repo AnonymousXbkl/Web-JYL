@@ -11,7 +11,7 @@
 
 /* Navbar */
 
-.navbar .nav-link {
+/* .navbar .nav-link {
     margin: auto .5rem;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -26,6 +26,77 @@
     -moz-transform: scale(1.2);
     -ms-transform: scale(1.2);
     -o-transform: scale(1.2);
+} */
+
+.navbar .nav-link {
+    margin: auto 0.5rem;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+
+.navbar .nav-link:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.navbar .navbar-nav a:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.navbar .navbar-nav a::before {
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 2px;
+    background: gray;
+    border: 5px;
+    transform: scaleX(0);
+    -webkit-transform: scaleX(0);
+    -moz-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    -o-transform: scaleX(0);
+    transition: all 0.6s ease-in-out;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+}
+
+.navbar .navbar-nav a::before {
+    bottom: 0;
+    left: 0;
+    transform: translate(35%) scaleX(0);
+    -webkit-transform: translate(35%) scaleX(0);
+    -moz-transform: translate(35%) scaleX(0);
+    -ms-transform: translate(35%) scaleX(0);
+    -o-transform: translate(35%) scaleX(0);
+}
+
+.navbar .navbar-nav a:hover::before {
+    transform: scaleX(1);
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    -o-transform: scaleX(1);
+}
+
+.navbar .navbar-nav a:hover::before {
+    transform: translate(35%) scaleX(1);
+    -webkit-transform: translate(35%) scaleX(1);
+    -moz-transform: translate(35%) scaleX(1);
+    -ms-transform: translate(35%) scaleX(1);
+    -o-transform: translate(35%) scaleX(1);
 }
 
 .navbar .navbar-extra a {
