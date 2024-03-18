@@ -822,7 +822,7 @@
 
 
     .content2 h3 {
-        margin: 2rem 0 1rem 2rem;
+        margin: 4rem 0 1rem 2rem;
         font-size: 1.5rem;
     }
     .content2 .readmore {
@@ -837,6 +837,11 @@
 
     .content2 .card {
         height: 20rem;
+    }
+
+    .content2 .card img {
+        display: flex;
+        justify-content: center;
     }
     /* Content 2 End */
 
@@ -893,6 +898,10 @@
     /* Content 1 End */
 
     /* Content 2 */
+    .content2 h3 {
+        margin-top: 8rem;
+    }
+
     .content2 .card {
         height: 15rem;
     }
